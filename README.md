@@ -1,112 +1,101 @@
-# Van's Chocolates Mobile App
+# Van's Chocolates E-commerce App
 
-A beautiful, modern mobile app showcasing Van's Chocolates products with a dark theme and orange accents.
+A modern, responsive e-commerce web application for Van's Chocolates built with React, TypeScript, and Tailwind CSS.
+
+## 🍫 Features
+
+- **Product Catalog**: Complete chocolate product inventory with categories
+- **Responsive Design**: Mobile-first design that works on all devices
+- **Navigation System**: 
+  - Header dropdown menu for quick access
+  - Bottom menu with category browsing
+  - Category cards with vertical scrolling
+  - Product grids (2x2 layout, no scrolling)
+- **Shopping Cart**: Full cart functionality with quantity management
+- **User System**: Authentication and rewards program
+- **Modern UI**: Dark theme with amber accents, hero section with backdrop effects
+
+## 🛍️ Product Categories
+
+- Signature Assortments
+- Truffles
+- Chocolate Bars
+- Nut & Chewy Assortments
+- Creams
+- Caramels and Toffees
+- Fruits
+- Hand Pulled Brittle
+- Meltaways
+- Nuts
+- Miscellaneous
 
 ## 🚀 Quick Start
 
 ```bash
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Run linter
+npm run lint
 ```
 
-## 🖼️ Adding Real Product Images
+## 🏗️ Tech Stack
 
-Your app is currently using placeholder images, but it's set up to easily use real product images from your Van's Chocolates website!
+- **Frontend**: React 18, TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Deployment**: Vercel
 
-### Step 1: Get Product Images from Your Site
+## 📱 Navigation Flow
 
-1. **Go to your website**: [vanschocolates.com](https://vanschocolates.com/)
-2. **Open Developer Tools**: Press F12 or right-click → Inspect
-3. **Find product images**: Look for product images in the HTML or Network tab
-4. **Download images**: Right-click on product images → "Save image as..."
-
-### Step 2: Organize Your Images
-
-Place the downloaded images in the `public/images/products/` folder with these exact names:
-
-```
-public/images/products/
-├── signature-assortment-1lb.jpg
-├── signature-assortment-half-lb.jpg
-├── signature-assortment-1-5lb.jpg
-├── signature-assortment-2lb.jpg
-├── signature-assortment-3lb.jpg
-├── truffle-assortment-12.jpg
-├── truffle-assortment-15.jpg
-├── truffle-assortment-24.jpg
-├── peanut-butter-kisses-12.jpg
-├── peanut-butter-kisses-24.jpg
-├── raspberry-jellies-12.jpg
-├── raspberry-jellies-24.jpg
-├── orange-jelly-12.jpg
-├── pectin-jelly-beans.jpg
-├── triple-dipped-malt-balls.jpg
-├── chocolate-bars.jpg
-├── nut-chewy-assortments.jpg
-├── hand-pulled-brittle.jpg
-├── creams-assortment.jpg
-├── caramels-toffees.jpg
-├── meltaways.jpg
-└── premium-nuts.jpg
-```
-
-### Step 3: Update Image Paths (Optional)
-
-If you want to use different image names, update the `image` property in `src/App.tsx` for each product:
-
-```typescript
-{
-  id: 1,
-  name: "1 lb. Signature Assortment",
-  image: "/images/products/your-actual-image-name.jpg", // Update this
-  fallbackImage: "https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg",
-  // ... rest of product data
-}
-```
-
-## ✨ Features
-
-- **Dark Theme**: Beautiful black background with orange accents
-- **Real Product Data**: 22 products from Van's Chocolates website
-- **Category Filtering**: Browse by product categories
-- **Product Details**: Full product information and size selection
-- **Responsive Design**: Mobile-first design that works on all devices
-- **Fallback Images**: App works immediately with placeholder images
-
-## 🍫 Products Included
-
-- **Signature Assortments**: 5 sizes (1/2 lb to 3 lbs)
-- **Truffles**: 12, 15, and 24 piece assortments
-- **Nut & Chewy**: Peanut butter kisses in various sizes
-- **Fruits**: Raspberry and orange jellies
-- **Miscellaneous**: Jelly beans, malt balls
-- **Other Categories**: Chocolate bars, creams, caramels, toffees, meltaways, nuts, brittle
+1. **Home Page**: Hero section with featured products
+2. **Menu Button** (bottom) → **Category Cards** (vertical scroll)
+3. **Category Card** → **Product Grid** (2x2 layout)
+4. **Product** → **Detail Page** with cart functionality
 
 ## 🎨 Design Features
 
-- Modern mobile app interface
-- Smooth animations and transitions
-- Orange accent colors matching chocolate theme
-- Clean typography and spacing
-- Bottom navigation bar
-- Search functionality
-- Category filters with active states
+- Semi-transparent hero section background for text readability
+- Smooth animations and hover effects
+- Mobile-responsive grid layouts
+- Dark theme with professional styling
+- Backdrop blur effects for modern glass appearance
 
-## 🔧 Technical Details
+## 🏪 Business Information
 
-- Built with React + TypeScript
-- Styled with Tailwind CSS
-- Uses Lucide React icons
-- Responsive grid layout
-- Image fallback system
-- State management with React hooks
+**Van's Chocolates**
+- Location: 202 Chadwick Ave, Hendersonville, NC 28792
+- Phone: 828-697-2120
+- Hours: Mon-Fri 9am-5pm, Sat 10am-5pm
 
-## 📱 Mobile Optimized
+## 📦 Deployment
 
-- Touch-friendly interface
-- Proper spacing for mobile devices
-- Optimized image loading
-- Smooth scrolling and navigation
+This app is optimized for Vercel deployment:
 
-Your app is ready to go! Just add the real product images and you'll have a professional chocolate shopping app that perfectly represents Van's Chocolates.
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically detect it as a Vite project
+3. Build command: `npm run build`
+4. Output directory: `dist`
+
+## 🛠️ Development
+
+The app uses modern React patterns with TypeScript for type safety and Tailwind CSS for styling. All components are responsive and follow accessibility best practices.
+
+## 📝 License
+
+© 2025 Van's Chocolates. All rights reserved.
+
+---
+
+*Handcrafted with ❤️ using Claude Code*
 
