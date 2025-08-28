@@ -72,7 +72,7 @@ const products: Product[] = [
     name: "2 lbs. Signature Assortment",
     subtitle: "Party size assortment",
     price: 65.99,
-    image: "/images/products/signature-assortment-2lb.jpg", // TODO: Replace with real Van's product image
+    image: "/images/products/2lbsigassortment.jpg",
     fallbackImage: "https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg",
     category: "Signature Assortments",
     rating: 4.8,
@@ -86,7 +86,7 @@ const products: Product[] = [
     name: "3 lbs. Signature Assortment",
     subtitle: "Ultimate chocolate experience",
     price: 98.99,
-    image: "/images/products/signature-assortment-3lb.jpg", // TODO: Replace with real Van's product image
+    image: "/images/products/3lbsigassortment.jpg",
     fallbackImage: "https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg",
     category: "Signature Assortments",
     rating: 4.9,
@@ -100,7 +100,7 @@ const products: Product[] = [
     name: "12 Piece Truffle Assortment",
     subtitle: "Elegant truffle collection",
     price: 26.99,
-    image: "/images/products/truffle-assortment-12.jpg", // TODO: Replace with real Van's product image
+    image: "/images/products/12pctruffleassortment.jpg",
     fallbackImage: "https://images.pexels.com/photos/1002638/pexels-photo-1002638.jpeg",
     category: "Truffles",
     rating: 4.8,
@@ -114,7 +114,7 @@ const products: Product[] = [
     name: "15 Piece Truffle Assortment",
     subtitle: "Luxury chocolate truffles",
     price: 33.75,
-    image: "/images/products/truffle-assortment-15.jpg", // TODO: Replace with real Van's product image
+    image: "/images/products/15pctruffleassortment.jpg",
     fallbackImage: "https://images.pexels.com/photos/1030899/pexels-photo-1030899.jpeg",
     category: "Truffles",
     rating: 4.9,
@@ -333,8 +333,8 @@ const categories = ['Signature Assortments', 'Truffles', 'Chocolate Bars', 'Nut 
 
 // Category images for the category cards screen
 const categoryImages: { [key: string]: string } = {
-  'Signature Assortments': 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg',
-  'Truffles': 'https://images.pexels.com/photos/1002638/pexels-photo-1002638.jpeg',
+  'Signature Assortments': '/images/products/1lbsignassortment.jpg',
+  'Truffles': '/images/products/12pctruffleassortment.jpg',
   'Chocolate Bars': 'https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg',
   'Nut & Chewy Assortments': 'https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg',
   'Creams': 'https://images.pexels.com/photos/1030899/pexels-photo-1030899.jpeg',
